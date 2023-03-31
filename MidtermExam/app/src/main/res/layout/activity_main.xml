@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="38dp"
+        android:layout_height="35dp"
+        android:src="@drawable/flash"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="132dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="@string/head"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="364dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="15dp"
+        app:cardBackgroundColor="#DCDCDC"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TextView
+            android:layout_width="276dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="@string/content2"
+            android:textColor="@color/black"></TextView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="364dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="80dp"
+        app:cardBackgroundColor="#DCDCDC"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/content3"
+            android:textColor="@color/black"></TextView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="364dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="152dp"
+        app:cardBackgroundColor="#DCDCDC"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/content4"
+            android:textColor="@color/black"></TextView>
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="42dp"
+        android:layout_height="35dp"
+        android:src="@drawable/warning"
+        app:cardBackgroundColor="#DCDCDC"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="@+id/textView2"></ImageView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="107dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="@string/head2"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/cardView3"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="@+id/cardView3"
+        app:layout_constraintTop_toBottomOf="@+id/cardView3"></TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="364dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="#DCDCDC"
+        app:layout_constraintEnd_toEndOf="@id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/content5"
+            android:textColor="@color/black"></TextView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="364dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="84dp"
+        app:cardBackgroundColor="#DCDCDC"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/content6"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="429dp"></TextView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="364dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="148dp"
+        app:cardBackgroundColor="#DCDCDC"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/content7"
+            android:textColor="@color/black"></TextView>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView6"
+        android:layout_width="381dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/cardView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView5">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="Send a message..."
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="553dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/cardView6"
+        app:layout_constraintStart_toStartOf="@+id/cardView6"
+        app:layout_constraintTop_toBottomOf="@+id/cardView6"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+
+            android:text="ChatGPT Mar 14 Version. Free Research Preview. Our goal is to make AI systems more natural and safe to interact with. Your feedback will help us improve."
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="628dp" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
